@@ -23,7 +23,15 @@ api_kwargs = {
 with open(movie_list, 'r') as f:
     data = json.loads(f.read())
 
+try:
+    start_at = int(sys.argv[1])
+except IndexError:
+    raise Exception("Please provide an index to start at.")
+
 for index, movie in enumerate(data):
+    if index < start_at:
+        continue
+
     print "[%d] Searching for %s..." % (index, movie['Movie Title'])
 
     api_kwargs['params']['query'] = movie['Movie Title']

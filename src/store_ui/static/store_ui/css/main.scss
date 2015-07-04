@@ -1,0 +1,67 @@
+$dark: #664422;
+$dark-accent: #cc7733;
+$bright: #ffaa55;
+$light: #ffeedd;
+$light-accent: #ffcc77;
+
+$box-shadow-bottom: 0px 1px 3px $dark;
+$box-shadow-left: -1px 0px 3px $dark;
+
+/*****************
+ * RESET
+ */
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, div {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*****************
+ * BASE
+ */
+
+html, body {
+    background-color: $light;
+    color: $dark;
+}
+
+/*****************
+ * LAYOUT
+ */
+
+.l-stripe {
+    width: 5%;
+    box-shadow: $box-shadow-left;
+    background-color: $dark;
+    float: right;
+    height: 100%;
+}
+
+.l-container {
+    width: 95%;
+    float: right;
+}
+
+.l-header {
+    background-color: $bright;
+    padding: 10px;
+    box-shadow: $box-shadow-bottom;
+}
+
+/*****************
+ * ATOMS
+ */
+
+.a-uppercase {
+    font-variant: small-caps;
+}
+
+.a-text-center {
+    text-align: center;
+}

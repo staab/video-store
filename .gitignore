@@ -1,3 +1,5 @@
 src/video_store/conf/active.py
 lib
 *.pyc
+.sass-cache
+static/CACHE
