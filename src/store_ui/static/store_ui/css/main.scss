@@ -1,8 +1,8 @@
-$dark: #664422;
-$dark-accent: #cc7733;
-$bright: #ffaa55;
-$light: #ffeedd;
-$light-accent: #ffcc77;
+$dark: #336699; /* #555522 */
+$dark-accent: #66aaaa; /* #aa9966 */
+$bright: #ffffdd; /* #ffeeee */
+$light: #eeeebb; /* #eeddcc */
+$light-accent: #aaddbb; /* #eebb88 */
 
 $box-shadow-bottom: 0px 1px 3px $dark;
 $box-shadow-left: -1px 0px 3px $dark;
@@ -15,6 +15,7 @@ html, body {
     margin: 0px;
     padding: 0px;
     height: 100%;
+    font-family: helvetica;
 }
 
 h1, h2, h3, h4, h5, h6, div {
