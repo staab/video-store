@@ -1,0 +1,23 @@
+{
+  "name": "video-store",
+  "version": "0.0.0",
+  "homepage": "https://github.com/staab/video-store",
+  "authors": [
+    "Jon Staab <shtaab@gmail.com>"
+  ],
+  "keywords": [
+    "video",
+    "movie"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "inuit-starter-kit": "~0.2.9"
+  }
+}
